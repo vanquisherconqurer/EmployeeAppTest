@@ -7,6 +7,7 @@ import { GetAPIService } from '../get-api.service';
   styleUrls: ['./view-employees.component.css']
 })
 export class ViewEmployeesComponent {
+  name="Einstein"
 
   result:any
 

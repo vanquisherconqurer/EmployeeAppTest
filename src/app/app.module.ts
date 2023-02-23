@@ -6,6 +6,8 @@ import { TestComponent } from './test/test.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { ViewEmployeesComponent } from './view-employees/view-employees.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TryComponent } from './try/try.component';
+import { AddUserComponent } from './add-user/add-user.component';
 
 
 @NgModule({
@@ -14,6 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     TestComponent,
     AddEmployeeComponent,
     ViewEmployeesComponent,
+    TryComponent,
+    AddUserComponent,
   
   ],
   imports: [
