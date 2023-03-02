@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    max-block-size: 100%;
+    padding-inline-start: Opx Opx;
+    box-sizing: content-box ;
+    font-size: 50px;
+
+}

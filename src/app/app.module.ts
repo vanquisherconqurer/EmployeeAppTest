@@ -2,22 +2,20 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
-import { ViewEmployeesComponent } from './view-employees/view-employees.component';
-import { HttpClientModule } from '@angular/common/http';
-import { TryComponent } from './try/try.component';
-import { AddUserComponent } from './add-user/add-user.component';
+import { GetEmployeeComponent } from './get-employee/get-employee.component';
+import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
+import { DeleteEmployeeComponent } from './delete-employee/delete-employee.component';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TestComponent,
+    
     AddEmployeeComponent,
-    ViewEmployeesComponent,
-    TryComponent,
-    AddUserComponent,
+         GetEmployeeComponent,
+         UpdateEmployeeComponent,
+         DeleteEmployeeComponent,
   
   ],
   imports: [

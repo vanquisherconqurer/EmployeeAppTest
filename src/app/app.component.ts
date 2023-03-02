@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
-import { CallApiService } from './call-api.service';
+
 
 
 @Component({
@@ -10,10 +10,7 @@ import { CallApiService } from './call-api.service';
 })
 export class AppComponent {
   title='call Api in Angular';
-  constructor(private api:CallApiService)
-  {
-
-  }
+  constructor() {}
   ngOnInt()
   {
     // this.api.apicall().subscribe(data)=>{

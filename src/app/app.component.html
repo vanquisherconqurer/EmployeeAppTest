@@ -1,7 +1,8 @@
-<app-view-employees></app-view-employees>
-<div class="container-fluid">
+
+<div class="container-fluid"></div>
   <h2>Add Employee</h2>
    <form>
+
     <div class="form-group">
       <label>First Name</label>
         <input type="text"> 
@@ -27,7 +28,14 @@
         <input type="date">
     </div>
 
-    <button class="btn btn-primary" type="submit">Add</button>
-   </formcmd>
-   {{AddEmployee.value | json}}
-   </div>
+   
+   <button class="btn btn-primary" type="submit">Add</button> 
+
+    <button class="btn btn-primary" type="fetch">Get</button>
+
+  <button class="btn btn-primary" type="update">Update</button> 
+  
+   <button class="btn btn-primary" type="delete">Delete</button>
+
+  </form>
+
